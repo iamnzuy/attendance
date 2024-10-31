@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\layout_attendance_management_view.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\layout\\attendance_management_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\layout_check_in_out.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\layout\\check_in_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\layout_attendance_management.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\layout\\attendance_management.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_clock.png.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\clock.png"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\layout_item_calendar.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\layout\\item_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_blue_circle.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\blue_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_clock_out.png.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\clock_out.png"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_circle_background.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\circle_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_manager_type_shape.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\manager_type_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_gray_circle.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\gray_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_red_circle.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\red_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_yellow_circle.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\yellow_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_employee_type_shape.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\employee_type_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\layout_attendance_employee_detail.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\layout\\attendance_employee_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_rounded_corner_background.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\rounded_corner_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_sand_clock.png.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\sand_clock.png"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_item_account.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\item_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_delete.png.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\delete.png"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_half_circle_blue.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\half_circle_blue.xml"
+    },
+    {
+        "merged": "com.example.calendar.app-debug-31:/layout_attendance_employee_detail.xml.flat",
+        "source": "com.example.calendar.app-main-33:/layout/attendance_employee_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_account_detail.png.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\account_detail.png"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\layout_item_check_in_out.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\layout\\item_check_in_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_blue_rectangle.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\blue_rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_green_circle.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\green_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\drawable_edit.png.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\drawable\\edit.png"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-debug-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\DUY\\.gradle\\daemon\\8.7\\com.example.calendar.app-main-33:\\xml\\data_extraction_rules.xml"
+    }
+]

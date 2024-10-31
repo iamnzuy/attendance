@@ -8,16 +8,23 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class CalendarRecycleViewAdapter extends RecyclerView.Adapter<CalendarRecycleViewAdapter.ViewHolder> {
 
     private final ArrayList<String> daysOfMonth;
     private final OnItemListener onItemListener;
+    private final int displayedMonth;
+    private final int displayedYear;
+    private final LocalDate currentDate;
 
-    public CalendarRecycleViewAdapter(ArrayList<String> daysOfMonth, OnItemListener onItemListener) {
+    public CalendarRecycleViewAdapter(ArrayList<String> daysOfMonth, OnItemListener onItemListener, int displayedMonth, int displayedYear) {
         this.daysOfMonth = daysOfMonth;
         this.onItemListener = onItemListener;
+        this.currentDate = LocalDate.now();
+        this.displayedMonth = displayedMonth;
+        this.displayedYear = displayedYear;
     }
 
     @NonNull
@@ -32,11 +39,33 @@ public class CalendarRecycleViewAdapter extends RecyclerView.Adapter<CalendarRec
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        holder.dayOfMonth.setText(daysOfMonth.get(position));
-        if (daysOfMonth.get(position).equals("")) {
+        String day = daysOfMonth.get(position);
+        holder.dayOfMonth.setText(day);
+
+        if (!day.isEmpty()) {
+            int dayInt = Integer.parseInt(day);
+            if (currentDate.getDayOfMonth() == dayInt &&
+                    currentDate.getMonthValue() == displayedMonth &&
+                    currentDate.getYear() == displayedYear) {
+                holder.dayOfMonth.setBackgroundResource(R.drawable.gray_circle);
+            } else if (position == 22 || position == 17 || position == 15 ) {
+                holder.dayOfMonth.setBackgroundResource(R.drawable.red_circle);
+            }
+            else if (position == 10 || position == 13 ) {
+                holder.dayOfMonth.setBackgroundResource(R.drawable.blue_circle);
+            }
+            else if (position == 10 || position == 13 ) {
+                holder.dayOfMonth.setBackgroundResource(R.drawable.blue_circle);
+            }
+            else if (position == 9 ) {
+                holder.dayOfMonth.setBackgroundResource(R.drawable.yellow_circle);
+            }
+
+            else {
+                holder.dayOfMonth.setBackgroundResource(R.drawable.green_circle);
+            }
+        } else {
             holder.dayOfMonth.setBackground(null);
-        }else {
-            holder.dayOfMonth.setBackgroundResource(R.drawable.green_circle);
         }
     }
 

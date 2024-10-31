@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gray">#888</color>
+    <color name="primary_color">#5C63D6</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">CalendarAppExample</string>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+    <style name="Theme.Calendar" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+</resources>

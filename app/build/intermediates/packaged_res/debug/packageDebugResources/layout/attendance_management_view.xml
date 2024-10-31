@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="prevMonthAction"
+            android:text="@string/back"
+            android:textColor="@color/primary_color"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvMonthYear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Feb 2021"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="nextMonthAction"
+            android:text="@string/forward"
+            android:textColor="@color/primary_color"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SUN"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MON"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TUE"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="WED"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="THUR"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="FRI"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SAT"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="240dp" />
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corner_background"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:id="@+id/rlEmployee1Information"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/item_account">
+
+            <TextView
+                android:id="@+id/tvEmployee1Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Tên nhân viên: "
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvEmployee1NameValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/tvEmployee1Name"
+                android:layout_alignTop="@+id/tvEmployee1Name"
+                android:text="Huỳnh Nhật Duy"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/ivEmployee1Detail"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignTop="@+id/ivAttendance1Delete"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/account_detail" />
+
+            <TextView
+                android:id="@+id/tvWorkTimeEmployee1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvEmployee1Name"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="7dp"
+                android:text="Thời gian làm: "
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/tvWorkTimeValueEmployee1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/tvWorkTimeEmployee1"
+                android:layout_toEndOf="@id/tvWorkTimeEmployee1"
+                android:text="9:01"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/tvOnTimeStatusEmployee1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvWorkTimeEmployee1"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/manager_type_shape"
+                android:text="Đi muộn"
+                android:textColor="#F47271" />
+
+            <ImageView
+                android:id="@+id/ivAttendance1Delete"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignTop="@+id/tvOnTimeStatusEmployee1"
+                android:layout_toStartOf="@+id/ivEmployee1Detail"
+                android:src="@android:drawable/ic_menu_delete" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlEmployee2Information"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_below="@id/rlEmployee1Information"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/item_account">
+
+            <TextView
+                android:id="@+id/tvEmployee2Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Tên nhân viên: "
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvEmployee2NameValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/tvEmployee2Name"
+                android:layout_alignTop="@+id/tvEmployee2Name"
+                android:text="Huỳnh Nhật Duy"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/ivEmployee2Detail"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignTop="@+id/ivAttendance2Delete"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="15dp"
+                android:src="@drawable/account_detail" />
+
+            <TextView
+                android:id="@+id/tvWorkTimeEmployee2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvEmployee2Name"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"
+                android:layout_marginTop="7dp"
+                android:text="Thời gian làm: "
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/tvWorkTimeValueEmployee2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/tvWorkTimeEmployee2"
+                android:layout_toEndOf="@id/tvWorkTimeEmployee2"
+                android:text="9:01"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/tvOnTimeStatusEmployee2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvWorkTimeEmployee2"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/employee_type_shape"
+                android:text="Đúng giờ"
+                android:textColor="#5AA572" />
+
+            <ImageView
+                android:id="@+id/ivAttendance2Delete"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignTop="@+id/tvOnTimeStatusEmployee2"
+                android:layout_toStartOf="@+id/ivEmployee2Detail"
+                android:src="@android:drawable/ic_menu_delete" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements CalendarRecycleVi
         tvMonthYear.setText(monthYearFromDate(selectedDate));
         ArrayList<String> daysInMonth = daysInMonthArray(selectedDate);
 
-        CalendarRecycleViewAdapter calendarRecycleViewAdapter = new CalendarRecycleViewAdapter(daysInMonth, this);
+        CalendarRecycleViewAdapter calendarRecycleViewAdapter = new CalendarRecycleViewAdapter(daysInMonth, this, selectedDate.getMonthValue(), selectedDate.getYear());
         rvCalendar.setLayoutManager(new GridLayoutManager(getApplicationContext(), 7));
         rvCalendar.setAdapter(calendarRecycleViewAdapter);
 
